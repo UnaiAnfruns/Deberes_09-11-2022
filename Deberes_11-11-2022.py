@@ -41,7 +41,7 @@ def Nota_Alumna(nota):
         print("Suspes")
     if nota >= 5 and nota <= 6:
         print("Bé")
-    if nota >= 6 and nota <= 8:
+    if nota > 6 and nota <= 8:
         print("Notable")
     if nota > 8:
         print("Excel.lent")
