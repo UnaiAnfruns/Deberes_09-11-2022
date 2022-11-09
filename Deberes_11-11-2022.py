@@ -30,7 +30,7 @@ def nombre(nombre):
     print("El nombre del ejecutardor es {}".format(nombre))
 
 def edad(edad):
-    if edad <= 18:
+    if edad >= 18:
         edad = "Es mayor de edad"
     else:
         edad = "Es menor de edad"
