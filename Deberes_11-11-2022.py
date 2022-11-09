@@ -37,7 +37,7 @@ def edad(edad):
     print(edad)
 
 def Nota_Alumna(nota):
-    if nota == 5:
+    if nota < 5:
         print("Suspes")
     if nota >= 5 and nota <= 6:
         print("Bé")
